@@ -39,3 +39,7 @@ ul {
   clip-path: inset(100%);
   margin: -1px;
 }
+
+img {
+  display: block;
+}
