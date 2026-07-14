@@ -4,6 +4,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -15,4 +16,10 @@
 
 .features-list {
   list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }

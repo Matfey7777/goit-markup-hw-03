@@ -51,3 +51,32 @@
 address {
   font-style: normal;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.logo {
+  margin-right: 76px;
+  display: block;
+  padding: 24px 0;
+}
+.address {
+  margin-left: auto;
+  font-style: normal;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.nav-link,
+.address-link {
+  display: block;
+  padding: 24px 0;
+}
